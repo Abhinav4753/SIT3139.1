@@ -1,0 +1,40 @@
+.navBar {
+    font-family: Arial, sans-serif; 
+    overflow: hidden;
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    padding: 0px 20px; 
+    margin: 15px 10px; 
+    background-color: #333;
+}
+
+.navBar form {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.searchBar {
+    flex-grow: 1;
+    padding: 10px 0px;
+    border: none;
+    margin: 10px;
+}
+
+.navBar a {
+    width: 12%; 
+    text-decoration: none;
+    color: #333; 
+    margin-left: auto;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 22px; 
+    transition: 0.3s; 
+}
+
+.navBar a:hover {
+    background-color: #333;
+    color: white;
+}

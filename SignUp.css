@@ -1,0 +1,55 @@
+.main {
+  text-align: center;
+}
+
+.signup-container {
+  font-weight: normal;
+  color: black;
+  display: inline-block;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+
+.signup-content {
+  display: flex;
+}
+
+.signupInput {
+  padding: 5px 10px;
+  width: 450px;
+}
+
+.signup-section {
+  padding: 0 10px;
+}
+
+.signup-section ul, .signup-section1 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.signup-section li {
+  margin: 30px 15px;
+}
+
+.signup-section1 li {
+  margin: 53px 30px;
+}
+
+.create {
+  font-family: 'Inconsolata', sans-serif;
+  background-color: #bcee49;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.create:hover {
+  background-color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
